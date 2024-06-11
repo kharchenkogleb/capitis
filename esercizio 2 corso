@@ -1,0 +1,6 @@
+Dichiarare una variabile di nome anno con valore 2016 e una variabile con nome prezzo e valore nogve virgola dodici
+
+const anno = 2016;
+console.log("anno");
+const prezzo = 9.12
+console.log("prezzo")

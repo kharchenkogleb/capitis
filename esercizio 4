@@ -1,0 +1,6 @@
+var lato1 = 5; 
+var lato2 = 6; 
+var lato3 = 7; 
+var l = (lato1 + lato2 + lato3)/2;
+var area =  Math.sqrt(l*((l-lato1)*(l-lato2)*(l-lato3)));
+console.log(area);

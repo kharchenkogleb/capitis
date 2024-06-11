@@ -1,0 +1,13 @@
+invertire una stringa (ciao sono elia giussani)
+
+
+function string_reverse(str) 
+{
+    return str.split("").reverse().join("");
+}
+
+console.log(string_reverse("ciao"));
+console.log(string_reverse("mi"));
+console.log(string_reverse("chiamo"));
+console.log(string_reverse("elia"));
+console.log(string_reverse("giussani"));

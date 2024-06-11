@@ -1,0 +1,9 @@
+function annobisestile(anno)
+{
+return (anno % 100 === 0) ? (anno % 400 === 0) : (anno % 4 === 0);
+}
+console.log(annobisestile(2016));
+console.log(annobisestile(2000));
+console.log(annobisestile(1700));
+console.log(annobisestile(1800));
+console.log(annobisestile(100));
